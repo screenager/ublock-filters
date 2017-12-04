@@ -1,0 +1,41 @@
+! Content
+www.standaard.be##:xpath(//article[ ./*[contains(., "Wat u moet weten")]])
+www.standaard.be##:xpath(//article[ ./*[contains(., "Wat weten we over")]])
+www.standaard.be##:xpath(//article[ ./*[contains(., "10 redenen")]])
+www.standaard.be##:xpath(//li[./*[contains(., "10 redenen")]])
+www.standaard.be##:xpath(//li[./*[contains(., "Wat weten we over")]])
+www.standaard.be##:xpath(//li[./*[contains(., "Wat u moet weten")]])
+standaard.be##:xpath(//article[./*[contains(., "Warmste Week") or contains(., "For Life")]])
+!www.standaard.be##:xpath(//article[ ./*[contains(., "?")]])
+
+! Social media and other buttons
+www.standaard.be##.share-buttons
+www.standaard.be##.plustitle.label_plus
+www.standaard.be##.plusimage.label_plus
+www.standaard.be##.article--plus
+www.standaard.be##.social-media--alt.social-media
+www.standaard.be##.icon-pinit.icon
+www.standaard.be##.padder--y0.social-media
+www.standaard.be##.list__item--plus .icon
+www.standaard.be##.brand--small
+www.standaard.be###menu
+www.standaard.be##.lsc-widget.live-sports-coverage
+www.standaard.be##.switchxpromo
+www.standaard.be###correspondent_promo
+www.standaard.be##.corrheader__small
+||cdn2.standaard.be/extra/assets/extra/plus/2016/201604/201604_apple/banners/570x135_3k.jpg$image
+www.standaard.be##div:nth-of-type(9) > .widget-listwidget--public.widget > .widget__header > h3 > .link--paco
+www.standaard.be##.test-Aversie
+www.standaard.be##.link--proceed.link
+www.standaard.be##.login-promo
+www.standaard.be##a[href="http://www.standaard.be/plus/tag/niet-te-missen"] > h2
+www.standaard.be##a[href="http://www.standaard.be/plus"] > h2
+www.standaard.be##a[href="http://meteo1.standaard.be/"]
+www.standaard.be##a[href="/verkeer"]
+
+! Vroom, Jobat, Puzzels, ..
+www.standaard.be##a[href^="http://www.jobat.be"]
+www.standaard.be##a[href="http://www.standaard.be/cultuurweken"]
+www.standaard.be##a[href^="http://www.vroom.be"]
+www.standaard.be##a[href^="http://www.standaard.be/puzzels"]
+www.standaard.be##.brand--small.brand--vroom.icon
