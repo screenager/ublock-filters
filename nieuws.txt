@@ -39,3 +39,70 @@ www.standaard.be##a[href="http://www.standaard.be/cultuurweken"]
 www.standaard.be##a[href^="http://www.vroom.be"]
 www.standaard.be##a[href^="http://www.standaard.be/puzzels"]
 www.standaard.be##.brand--small.brand--vroom.icon
+
+
+! Vrt Nws
+www.vrt.be##.vrt-site-header--pinned.vrt-site-header--not-top.vrt-site-header--not-bottom.vrt-site-header--init.vrt-site-header
+www.vrt.be##.vrt-teaser-section--sport.vrt-teaser-section > .row
+www.vrt.be##.swiper-slide.vrt-ticker__item
+www.vrt.be##.swiper-slide-active.swiper-slide.vrt-ticker__item
+www.vrt.be##.vrt-mosttrending
+www.vrt.be##.vrt-newsletter
+www.vrt.be##.vrt-site-footer__text
+www.vrt.be##.vrt-site-footer__container--notify
+www.vrt.be##.vrt-site-footer__container--mobile
+www.vrt.be##.vrt-site-footer__container--social
+www.vrt.be##.sporza_teaser
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Sporza")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Drie dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Vier dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Vijf dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Zes dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Zeven dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Acht dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Negen dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Tien dingen")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Björn Soenens")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Wat weten we")]])
+www.vrt.be##:xpath(//div[contains(@class, 'vrt-teaser-wrapper') and ./*[contains(., "Wat u moet weten")]])
+www.vrt.be##.qualifio_iframe_wrapper
+www.vrt.be##.vrt-teaser--poll
+www.vrt.be##.site-mostrecent.vrt-site-header__nav-item
+www.vrt.be##.vrt-tag--breaking
+www.vrt.be##.small-24.medium-12.columns > .content-wrapper > .sporza-teaser.section.parbase
+www.vrt.be##.small-24.medium-6.columns:nth-of-type(3) > .content-wrapper > .sporza-teaser.section.parbase
+www.vrt.be##.menu-item > .vrt-menu-list__link-item--block.vrt-menu-list__link-item > .page.page-expert
+www.vrt.be##.vrt-mosttrending--sidebar--show.vrt-mosttrending--sidebar
+www.vrt.be##.responsive-image.section > .vrt-image__copyright
+www.vrt.be##.vrt-social-links--article.vrt-social-links
+www.vrt.be##.vrt-site-footer__button
+www.vrt.be##.vrt-teaser__image-footer
+
+! Festival content
+www.vrt.be##:xpath(//div[contains(@class, 'thematic') and ./*[contains(., "Warmste Week") or contains(., "For Life")]])
+www.vrt.be##:xpath(//div[(contains(@class, 'page-article') or contains(@class, 'vrt-teaser-section--story')) and ./*[contains(., "Warmste Week") or contains(., "For Life")]])
+www.vrt.be##:xpath(//div[contains(@class, 'thematic') and ./*[contains(., "Werchter")]])
+www.vrt.be##:xpath(//div[contains(@class, 'thematic') and ./*[contains(., "Tomorrowland")]])
+www.vrt.be##:xpath(//article[./*[contains(., "Tomorrowland")]])
+www.vrt.be##:xpath(//article[./*[contains(., "Werchter")]])
+www.vrt.be##:xpath(//article[./*[contains(., "Pukkelpop")]])
+
+! Dagen zonder vlees
+www.vrt.be##:xpath(//div[contains(@class, 'thematic') and ./*[contains(., "zonder vlees") or contains(., "For Life")]])
+www.vrt.be##:xpath(//div[contains(@class, 'thematic') and ./*[contains(., "Tournée Minérale") or contains(., "For Life")]])
+
+! Sport
+www.vrt.be##:xpath(//div[contains(@class, 'sporza-headlines-teaser')])
+www.vrt.be##:xpath(//article[contains(@class, 'sporza')])
+www.vrt.be##:xpath(//div[contains(@class, 'sporza')])
+www.vrt.be##:xpath(//li[contains(@class, 'sporza')])
+www.vrt.be##.sporza-teaser.section.parbase
+
+! Block Björn Soenens content
+www.vrt.be##:xpath(//article[./*[contains(., "Björn Soenens")]])
+www.vrt.be##:xpath(//article[./*[contains(., "Amerikawatcher Soenens")]])
+www.vrt.be##:xpath(//div[contains(@class, 'contentitem') and ./* [contains(., "Björn Soenens")]])
+www.vrt.be##:xpath(//div[contains(@class, 'contentitem') and ./* [contains(., "Amerikawatcher Soenens")]])
+www.vrt.be##:xpath(//a[contains(@class, 'videolink') and ./* [contains(., "Soenens")]])
+www.vrt.be##:xpath(//div[contains(@class, 'blogquote') and ./* [contains(., "Soenens")]])
+
